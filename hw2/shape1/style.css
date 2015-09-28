@@ -1,0 +1,92 @@
+.frontTriangle {
+  width: 0;
+  height: 0;
+  border-bottom: 200px solid gray;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  position: relative;
+  left: 600px;
+}
+
+.body {
+  width:140px;
+  height:600px;
+  position:absolute;
+  top:200px;
+  left:-70px;
+  background-color:gray;
+}
+
+.booster {
+  width: 140px;
+  height: 190px;
+  background: gray;
+  display: block;
+  -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  position:absolute;
+  top:480px;
+  left:0px;
+}
+
+.leftwingTriangle {
+   width: 0;
+   height: 0;
+   border-bottom: 600px solid #5e5e5e;
+   border-left: 200px solid transparent;
+   border-right: 0px solid transparent;
+   position: absolute;
+   bottom: 0px;
+   right:0px;
+}
+
+.leftwingTriangleExtension {
+   width: 0;
+   height: 0;
+   border-bottom: 200px solid gray;
+   border-left: 500px solid transparent;
+   border-right: 0px solid transparent;
+   position: absolute;
+   bottom: 100px;
+   right:0px;
+}
+
+.leftwingTriangleExtensionBottom {
+  width: 500px;
+  height: 100px;
+  background: #939393;
+  position: absolute;
+  top: 20px;
+  right:140px;
+}
+
+.rightwingTriangle {
+  width: 0;
+   height: 0;
+   border-bottom: 600px solid #5e5e5e;
+   border-left: 0px solid transparent;
+   border-right: 200px solid transparent;
+   position: absolute;
+   bottom: 0px;
+   left:0px;
+}
+
+.rightwingTriangleExtension {
+   width: 0;
+   height: 0;
+   border-bottom: 200px solid gray;
+   border-left: 0px solid transparent;
+   border-right: 500px solid transparent;
+   position: absolute;
+   bottom: 100px;
+   right:0px;
+}
+
+.rightwingTriangleExtensionBottom {
+  width: 500px;
+  height: 100px;
+  background: #939393;
+  position: absolute;
+  top: 20px;
+  left:140px;
+}
