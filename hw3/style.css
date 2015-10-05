@@ -158,11 +158,12 @@
 }
 
 .stamper {
-  width: 5%;
+  width: 15%;
   height: 200px;
   background: #64C7CC;
   position: relative;
-  top: -120%;
+  transform: scaleY(0.6) rotate(45deg);
+  bottom: -158%;
   left: 60%;
 }
 
