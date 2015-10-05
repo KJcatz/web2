@@ -1,0 +1,240 @@
+.conveyerBelt {
+  width: 300%;
+  height: 350px;
+  background: #aa9c87;
+  transform: scaleY(0.6) rotate(45deg);
+  position: relative;
+  left: -125%;
+  top: 0%;
+}
+
+.narrow-diamond {
+  width: 220%;
+  height: 350px;
+  background: #dfe3cf;
+  transform: scaleY(1) rotate(0);
+  position: absolute;
+  left: -120%;
+  bottom: 20%;
+}
+
+.narrow-diamond3 {
+  width: 220%;
+  height: 15px;
+  background: black;
+  transform: scaleY(1) rotate(0);
+  position: absolute;
+  left: -120%;
+  bottom: 10%;
+}
+
+.narrow {
+  width: .01%;
+  height: 350px;
+  background: #8b806f;
+  transform: scaleY(1) rotate(0);
+  position: absolute;
+  bottom: 0%;
+}
+
+.line1 {right: 10%;}
+.line2 {right: 9%;}
+.line3 {right: 8%;}
+.line4 {right: 7%;}
+.line5 {right: 6%;}
+.line6 { right: 5%;}
+.line7 { right: 4%;}
+.line8 { right: 3%;}
+.line9 { right: 2%;}
+.line10 { right: 1%;}
+.line11 { right: 11%;}
+.line12 { right: 12%;}
+
+.left {
+  width: 1%;
+  height: 45px;
+  background: #64C7CC;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  transform: skewX(45deg) scale(0.8);
+  position: absolute;
+    top: 88%;
+}
+
+.circle1 {left: 45%;}
+.circle2 {left: 50%;}
+.circle3 {left: 55%;}
+.circle4 {left: 60%;}
+.circle5 {left: 65%;}
+.circle6 {left: 70%;}
+.circle7 {left: 75%;}
+.circle8 {left: 80%;}
+
+.Shadow {
+  width: 1%;
+  height: 45px;
+  background: #669595;
+  transform: skewY(45deg) scale(0.8);
+  position: absolute;
+  top: 81%;
+}
+
+.box1 {left: 45.15%;}
+.box2 {left: 50.15%;}
+.box3 {left: 55.15%;}
+.box4 {left: 60.15%;}
+.box5 {left: 65.15%;}
+.box6 {left: 70.15%;}
+.box7 {left: 75.15%;}
+.box8 {left: 80.15%;}
+
+.buttonsPanel {
+  width: 20%;
+  height: 100px;
+  background: #64C7CC;
+  transform: scaleY(0.6) rotate(45deg);
+  position: relative;
+  top: 100px;
+  left: 25%;
+}
+
+.buttonShadow {
+  width: 50%;
+  height: 100px;
+  background: #669595;
+  transform: skewY(45deg);
+  position: absolute;
+  left: 100%;
+  bottom: -80%;
+}
+
+.buttonNumber1 {
+  width: 80px;
+  height: 80px;
+    background: #6cc81b;
+    -moz-border-radius: 80px;
+    -webkit-border-radius: 80px;
+    border-radius: 80px;
+  position: absolute;
+  left: 15%;
+  top: 10%;
+}
+
+.buttonNumber1Top {
+  width: 80px;
+  height: 80px;
+    background: #7fee1d;
+    -moz-border-radius: 80px;
+    -webkit-border-radius: 80px;
+    border-radius: 80px;
+  position: absolute;
+  left:-15%;
+  top: -15%;
+}
+
+.buttonNumber2 {
+  width: 80px;
+  height: 80px;
+    background: #c8811b;
+    -moz-border-radius: 80px;
+    -webkit-border-radius: 80px;
+    border-radius: 80px;
+  position: absolute;
+  left: 55%;
+  top: 10%;
+}
+
+.buttonNumber2Top {
+  width: 80px;
+  height: 80px;
+    background: #ee891d;
+    -moz-border-radius: 80px;
+    -webkit-border-radius: 80px;
+    border-radius: 80px;
+  position: absolute;
+  left:-15%;
+  top: -15%;
+}
+
+.stamper {
+  width: 5%;
+  height: 200px;
+  background: #64C7CC;
+  position: relative;
+  top: -120%;
+  left: 60%;
+}
+
+.trapezoid {
+  width: 50%;
+  height: 100px;
+  background: solid transparent;
+  transform: skewY(45deg);
+  position: absolute;
+  left: 100%;
+  bottom: -80%;
+}
+
+.inside {
+  border-top: 50px solid transparent;
+	border-bottom:0px solid transparent;
+	border-right: 100px solid #669595;
+	height: 200px;
+	width: 0px;
+  position: absolute;
+  bottom: 100%;
+  left: 0%;
+}
+
+.outsidetrapezoid {
+  width: 50%;
+  height: 100px;
+  background: solid transparent;
+  transform: skewX(45deg);
+  position: absolute;
+  left: 50%;
+  bottom: -50%;
+}
+
+.inside2 {
+  border-bottom: 100px solid #648080;
+  	border-left: 50px solid transparent;
+  	border-right: 0px solid transparent;
+  	height: 0;
+  	width: 240px;
+  position: absolute;
+  bottom: 1%;
+  right: -43%;
+}
+
+.tube {
+  width: 150px;
+  height: 150px;
+    background: #669595;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    border-radius: 150px;
+  position: absolute;
+  left:17%;
+  top: 10%;
+}
+
+.cylinder {
+  width: 350%;
+  height: 210px;
+  background: #669595;
+  transform: skewY(45deg) skewX(-26.5deg);
+  position: absolute;
+  left: -300%;
+  top: -213%;
+}
+
+.stamperShadow {
+  width: 6%;
+  height: 250px;
+  background: #8b806f;
+  position: relative;
+  top: -55%;
+  left: 70%;
+}
