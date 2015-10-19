@@ -3,6 +3,8 @@
   <head>
     <title>Conveyer Belt</title>
     <link rel='stylesheet' href='style.css'/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
   </head>
   <body>
 
@@ -53,6 +55,14 @@
     </div>
   </div>
 
+    <div class='stamperShadow'></div>
+
+    <div class="boxPackage reset">
+
+      <div class='topBox'></div>
+      <div class='frontBox'></div>
+    </div>
+
     <div class='stamper'>
       <div class='trapezoid'>
         <div class='inside'></div>
@@ -62,9 +72,13 @@
       </div>
       <div class='tube'></div>
       <div class='cylinder'></div>
-      <div class='stamperShadow'></div>
     </div>
+    <button onclick="myFunction()">Reload page</button>
 
-
+    <script>
+    function myFunction() {
+        location.reload();
+    }
+    </script>
   </body>
 </html>

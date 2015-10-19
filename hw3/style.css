@@ -1,3 +1,17 @@
+@-webkit-keyframes move {
+  100% { transform: translate(10050px,6000px); }
+}
+
+@-webkit-keyframes line-move {
+  100% { transform: translate(1000px,0px); }
+}
+
+body {
+  width: 1608px;
+  height: 608px;
+  overflow: hidden;
+}
+
 .conveyerBelt {
   width: 300%;
   height: 350px;
@@ -35,6 +49,7 @@
   transform: scaleY(1) rotate(0);
   position: absolute;
   bottom: 0%;
+  -webkit-animation:line-move .3s infinite;
 }
 
 .line1 {right: 10%;}
@@ -121,6 +136,14 @@
   top: 10%;
 }
 
+.buttonNumber1.clicking{
+  background: #7fee1d;
+}
+
+.buttonNumber2.clicking2{
+  background: #EE8921;
+}
+
 .buttonNumber1Top {
   width: 80px;
   height: 80px;
@@ -164,8 +187,10 @@
   position: relative;
   transform: scaleY(0.6) rotate(45deg);
   left: 60%;
-  top: -300px;
+  top: -700px;
 }
+
+.stamper.clicked{top:-500px;}
 
 .trapezoid {
   width: 50%;
@@ -232,10 +257,63 @@
 }
 
 .stamperShadow {
-  width: 130%;
+  width: 17%;
   height: 250px;
   background: #8b806f;
   position: relative;
-  top: 225%;
-  left: 180%;
+  transform: scaleY(0.6) rotate(45deg);
+  left: 60%;
+  top: 13.5%;
+}
+
+.boxPackage {
+  width: 13%;
+  height: 195px;
+  background: #efbd71;
+  position: relative;
+  transform: scaleY(0.6) rotate(45deg);
+  left: -20%;
+  top: -165%;
+}
+
+.boxPackage.stamp {
+  background-image: url(images/smiley.svg);
+}
+
+.reset {
+  -webkit-animation:move 7s ease-in-out infinite;
+}
+
+.reset.off {
+  -moz-animation-name: none;
+  -webkit-animation-name: none;
+  -ms-animation-name: none;
+  animation-name: none;
+}
+
+.narrow.off {
+  -moz-animation-name: none;
+  -webkit-animation-name: none;
+  -ms-animation-name: none;
+  animation-name: none;
+}
+
+.topBox {
+  width: 100%;
+  height: 100px;
+  background: #94723e;
+  transform: skewX(45deg);
+  position: absolute;
+  left: 24%;
+  bottom: -50%;
+}
+
+.frontBox {
+  width: 99px;
+  height: 99.5%;
+  background: #b98331;
+  transform: skewY(45deg);
+  position: absolute;
+  left: 100%;
+  top: 25%;
 }
