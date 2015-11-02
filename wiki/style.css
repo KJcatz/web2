@@ -14,9 +14,18 @@ body { font-family: Times; font-size:16px; }
   background-color: red;
   background-image: url(img/family.jpg);
 }
+
 .pg2 {
-  background-color: blue;
+  background-color: gray;
+  background: url('img/bobsburgers.jpg') no-repeat;
+  background-size:contain;
 }
+
+.lightbox {
+  background-color: black;
+  background-size:contain;
+}
+
 .pg3 {
   background-color: yellow;
 }
@@ -25,10 +34,12 @@ body { font-family: Times; font-size:16px; }
 }
 
 #title {
+  opacity: 0;
   position:absolute;
   left:50%;
   top:25%;
   transform: translate(-50%, -50%);
+  transition: opacity 2s ease-in-out;
 }
 
 .parallax-image {
@@ -42,7 +53,39 @@ body { font-family: Times; font-size:16px; }
 
 #title.arrived {
   opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.text-block {
+  position:relative;
+  width:480px;
+  font-size:16px;
+  padding:100px;
+  text-align: justify;
+  line-height:1.5em;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  left: 5%;
+}
+
+.image-container {
+  position:absolute;
+  right: 0%;
+  width:33%;
+  height:43%;
+
+}
+
+.img1 {background: url('img/ketchup.png') no-repeat;
+background-size:contain;
+  top: 0%;
+}
+
+.img2 {background: url('img/bathroom.jpg') no-repeat;
+background-size:contain;
+  top: 38%;
+}
+
+.img3 {background: url('img/livingroom.jpg') no-repeat;
+background-size:contain;
+  top: 70%;
 }
