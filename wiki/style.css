@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body { font-family: Times; font-size:16px; }
+
+.page {
+  min-height: 100vh;
+  position:relative;
+}
+
+.pg1 {
+  background-color: red;
+  background-image: url(img/family.jpg);
+}
+.pg2 {
+  background-color: blue;
+}
+.pg3 {
+  background-color: yellow;
+}
+.pg4 {
+  background-color: green;
+}
+
+#title {
+  position:absolute;
+  left:50%;
+  top:25%;
+  transform: translate(-50%, -50%);
+}
+
+.parallax-image {
+  background-size:cover;
+  background-position:50% 50%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  width:100%;
+  height:100vh;
+}
+
+#title.arrived {
+  opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
