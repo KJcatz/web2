@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body { font-family: Times; font-size:16px; }
+
+.page {
+  min-height: 100vh;
+  position:relative;
+}
+
+.pg1 {
+  background-color: red;
+  background-image: url(img/pixar.jpg);
+}
+
+.pg2 {
+  background-color: gray;
+  background: url('img/brave1.jpg') no-repeat;
+}
+
+.lightbox {
+  background-color: black;
+  background-size:contain;
+}
+
+.pg3 {
+  background-color: yellow;
+}
+.pg4 {
+  background-color: green;
+}
+
+#title {
+  opacity: 0;
+  position:absolute;
+  left:50%;
+  top:25%;
+  transform: translate(-50%, -50%);
+  transition: opacity 2s ease-in-out;
+}
+
+.parallax-image {
+  background-size:cover;
+  background-position:50% 50%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  width:100%;
+  height:100vh;
+}
+
+#title.arrived {
+  opacity: 1;
+}
+
+.text-block {
+  position:relative;
+  width:480px;
+  font-size:20px;
+  line-height: 1.25em;
+  padding:100px;
+  text-align: justify;
+  line-height:1.5em;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  padding-top: 450px;
+  left: 5%;
+}
+
+.text-block h1 {
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: 4px;
+  font-size: 80px;
+  margin-left: 80px;
+}
+
+.text-block h2 {
+  font-family: 'Voltaire', sans-serif;
+  letter-spacing: 4px;
+  font-size: 80px;
+  margin-top: -30px;
+}
+
+.text-block p {
+  margin-left: 80px;
+}
+
+.evidence {
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 5px;
+  font-size: 16px;
+  color:white;
+  padding: 20px;
+}
+
+.image-container {
+  position:absolute;
+  right: 0%;
+  width:25%;
+  height:66%;
+}
+
+.img1 {background: url('img/brave2.jpg') no-repeat;
+background-size:contain;
+  top: 0%;
+}
+
+.img2 {background: url('img/brave3.jpg') no-repeat;
+background-size:contain;
+  top: 33.33%;
+}
+
+.img3 {background: url('img/brave4.jpg') no-repeat;
+background-size:contain;
+  top: 66.66%;
+}
