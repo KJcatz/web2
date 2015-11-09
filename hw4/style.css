@@ -11,25 +11,27 @@ body { font-family: Times; font-size:16px; }
 }
 
 .pg1 {
-  background-color: red;
+  background-color: white;
   background-image: url(img/pixar.jpg);
 }
 
 .pg2 {
-  background-color: gray;
+  background-color: white;
   background: url('img/brave1.jpg') no-repeat;
 }
 
-.lightbox {
-  background-color: black;
-  background-size:contain;
+.pg3 {
+  background-color: #a4bce0;
+  background: url('img/theIncredibles.jpeg') no-repeat;
 }
 
-.pg3 {
-  background-color: yellow;
-}
 .pg4 {
   background-color: green;
+  background: url('img/toyStory.jpg') no-repeat;
+}
+
+.pg5 {
+  background-color: white;
 }
 
 #title {
@@ -112,6 +114,117 @@ background-size:contain;
 }
 
 .img3 {background: url('img/brave4.jpg') no-repeat;
+background-size:contain;
+  top: 66.66%;
+}
+
+.image-container2 {
+  position:absolute;
+  left: 0%;
+  width:30%;
+  height:50%;
+}
+
+.img4 {background: url('img/syndrome.jpg') no-repeat;
+background-size:contain;
+  top: 0%;
+}
+
+.img5 {background: url('img/omnidroid.jpg') no-repeat;
+background-size:contain;
+  top: 50%;
+}
+
+.text-block2 {
+  position:relative;
+  width:480px;
+  font-size:20px;
+  padding:100px;
+  text-align: justify;
+  line-height:1.5em;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  padding-top: 350px;
+  left: 50%;
+}
+
+.text-block2 h1 {
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: 4px;
+  font-size: 80px;
+  margin-left: 80px;
+  line-height:1.1em;
+}
+
+.text-block2 h2 {
+  font-family: 'Voltaire', sans-serif;
+  letter-spacing: 4px;
+  font-size: 80px;
+  margin-top: -58px;
+}
+
+.text-block2 p {
+  margin-left: 80px;
+}
+
+.text-block3 {
+  position:relative;
+  width:480px;
+  font-size:20px;
+  line-height: 1.25em;
+  padding:100px;
+  text-align: justify;
+  line-height:1.5em;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  padding-top: 450px;
+  left: 5%;
+}
+
+.text-block3 h1 {
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: 4px;
+  font-size: 80px;
+  margin-left: 80px;
+}
+
+.text-block3 h2 {
+  font-family: 'Voltaire', sans-serif;
+  letter-spacing: 4px;
+  font-size: 80px;
+  margin-top: -30px;
+}
+
+.text-block3 p {
+  margin-left: 80px;
+}
+
+.evidence {
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 5px;
+  font-size: 16px;
+  color:white;
+  padding: 20px;
+}
+
+.image-container {
+  position:absolute;
+  right: 0%;
+  width:25%;
+  height:66%;
+}
+
+.img6 {background: url('img/toyStory1.jpg') no-repeat;
+background-size:contain;
+  top: 0%;
+}
+
+.img7 {background: url('img/toyStory2.jpg') no-repeat;
+background-size:contain;
+  top: 33.33%;
+}
+
+.img8 {background: url('img/toyStory3.jpg') no-repeat;
 background-size:contain;
   top: 66.66%;
 }
