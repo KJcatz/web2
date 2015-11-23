@@ -103,30 +103,18 @@ body { font-family: Times; font-size:16px;
   opacity: 1;
 }
 
-.image-overlay {
-  width: 100%;
-  min-height: 33.33vh;
-  background-color: black;
-  opacity: 0.3;
-  margin-top: -60px;
-  background-size:contain;
+
+
+.image-container:hover{
+	opacity: 1;
 }
 
-.image-overlay:hover{
-	opacity: 0;
+.image-container2:hover{
+	opacity: 1;
 }
 
-.image-overlay2 {
-  width: 60%;
-  min-height: 50vh;
-  background-color: black;
-  opacity: 0.3;
-  margin-top: -60px;
-  background-size:contain;
-}
-
-.image-overlay2:hover{
-	opacity: 0;
+.image-container3:hover{
+	opacity: 1;
 }
 
 /* page1 - brave */
@@ -177,6 +165,7 @@ body { font-family: Times; font-size:16px;
   right: 0%;
   width:25%;
   height:66%;
+  opacity: .8;
 }
 
 .image-container.arrived {
@@ -214,6 +203,7 @@ background-size:contain;
   left: 0%;
   width:50%;
   height:50%;
+  opacity: .8;
 }
 
 .image-container2.arrived {
@@ -316,6 +306,7 @@ background-size:contain;
   right: 0%;
   width:25%;
   height:66%;
+  opacity: .8;
 }
 
 .image-container3.arrived {
