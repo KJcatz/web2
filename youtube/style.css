@@ -1,0 +1,49 @@
+.overlay {
+  position:fixed;
+  height:100%;
+  width:100%;
+  left:0;
+  top:0;
+  background-color:rgba(0,0,0,0.3);
+  z-index: 2;
+  display:none;
+}
+
+.modal {
+  width: 500px;
+  position: fixed;
+  top: 20%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  background-color:white;
+  padding:10px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+  border-radius:10px;
+  z-index:4;
+  display:none;
+}
+
+.vid {
+  width: 320px;
+  height: 340px;
+  float: left;
+  background-color: skyblue;
+  margin: 1px;
+}
+
+body {
+  background: black;
+}
+
+h2 {
+  margin: 20px;
+  font-size: 20px;
+  font-family: helvetica;
+  color: red;
+}
+
+img {
+  border-color: yellow;
+  border:2px;
+}
