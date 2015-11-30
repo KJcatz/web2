@@ -24,12 +24,14 @@
   display:none;
 }
 
-.vid {
+.box {
   width: 320px;
-  height: 340px;
+  height: 320px;
   float: left;
   background-color: skyblue;
   margin: 1px;
+  position: relative;
+  vertical-align: middle;
 }
 
 body {
@@ -43,7 +45,17 @@ h2 {
   color: red;
 }
 
-img {
-  width: 20%;
-  height: 20%;
+.box img {
+  width: 90%;
+  padding-top: 40px;
+  padding-left: 10px;
+  position: absolute;
+  vertical-align: middle;
+        display: table-cell;
+}
+
+.container{
+  position:absolute;
+  top: 0px;
+  right: 10px;
 }

@@ -18,7 +18,7 @@ function addAnImage(item) {
   var $img = $("<img>").attr("src",images);
   var $caption= $("<p>").text(caption);
 
-  $box.append($heading, $img, $caption);
+  $box.append($img);
 
   $container.append($box);
 }
