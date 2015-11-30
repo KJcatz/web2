@@ -1,9 +1,11 @@
 function callback(data) {
   console.log(data);
-  addABox(data[0]);
+  for(var i = 0; i < data.length; i++) {
+    addAnImage(data[i]);
+  }
 }
 
-function addABox(item) {
+function addAnImage(item) {
   var meal = item.Meal;
   var images = item.images;
   var caption = item.Rice;
