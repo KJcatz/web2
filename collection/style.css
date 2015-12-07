@@ -5,6 +5,7 @@ body {
 
 .collection {
   margin: 0 20px;
+  margin-left: 160px;
 }
 
 
@@ -13,6 +14,19 @@ body {
 }
 
 #filter-bar {
+  position:fixed;
+  top:0px;
+  left:0px;
+  height:100%;
+  background-color: #1d3c41;
+  text-align:center;
+  width:200px;
+  padding-top:10px;
+  z-index:2;
+  border-right: 8px solid #0d1c1d;
+}
+
+#filter-bar2 {
   position:fixed;
   top:0px;
   left:0px;
@@ -25,11 +39,9 @@ body {
 }
 
 .logo img {
-  width: 150px;
+  width: 390px;
   height: auto;
-  margin-top: -30px;
-  margin-left: -900px;
-  position: fixed;
+  margin-left: -95px;
 }
 
 .category {
@@ -37,21 +49,34 @@ body {
   border:0px;
   top: 0;
   padding:18px;
-  margin-top: -10px;
+  width:200px;
+  height: 62px;
+  border-bottom: 4px solid #1d3c41;
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px;
+  color: white;
 }
 
 .category.selected {
-  background-color:black;
+  background-color:#0d1c1d;
   color:white;
+  border-left: 10px solid #3a7b75;
 }
 
 #search  {
-  padding:5px;
+  padding:7px;
+  background-color: #1d3c41;
+  border: none;
+  border-bottom: 3px solid #3a7b75;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 1000px;
+  margin-left: 350px;
 }
 
 .item {
-  width: 200px;
-  height: 200px;
+  width: 12.3%;
   list-style-type:none;
   background-color:brown;
   padding:20px;
@@ -106,7 +131,7 @@ body {
 .modal img { width:400px; height:400px; }
 
 .blue {
-  background-color: #5ec5bd;
+  background-color: #3a7b75;
 }
 
 .orange {
@@ -123,4 +148,15 @@ body {
 
 .item img {
   width: 100%;
+}
+
+.name {
+  opacity: 0;
+  font-size: 2px;
+}
+
+.MealCategory {
+  text-align: left;
+  margin-left: 10px;
+  color: #3a7b75;
 }

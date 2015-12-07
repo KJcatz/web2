@@ -9,19 +9,34 @@
   <script src='http://cykod.github.io/Collection.js/tabletop.js'></script>
   <script src='collection.js'></script>
   <link type='text/css' rel='stylesheet' href='style.css' />
+  <link href='https://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
 <div id='filter-bar-wrapper'>
 
+  <div id='filter-bar2'>
+    <input type='text' id='search' placeholder='Search This F*ckin List'/>
+
+  </div>
+
   <div id='filter-bar'>
-    <input type='text' id='search' placeholder='search'/>
-    <button data-category=""      class='category selected' id="all-button">All</button>
+    <div class='logo'><img src="img/logo.png" alt='logo'></div>
+    <div class='navigation'>
+    <button data-category=""      class='category selected blue' id="all-button">All</button>
+    <p class="MealCategory">Type of Rice</p>
     <button data-category="Plain"  class='category blue'>Plain</button>
-    <button data-category="Fried"   class='category orange'>Fried</button>
-    <button data-order="category"    class="order">Order by Color</button>
-    <button data-order="title"    class="order">Order by Title</button>
-      <div class='logo'><img src="img/logo.png" alt='logo'></div>
+    <button data-category="Fried"   class='category blue'>Fried</button>
+    <p class="MealCategory">Main Meat</p>
+    <button data-category="Beef"  class='category blue'>Beef</button>
+    <button data-category="Poultry"   class='category blue'>Poultry</button>
+    <button data-category="Poultry"   class='category blue'>Pork</button>
+    <button data-category="Poultry"   class='category blue'>Fish</button>
+    <p class="MealCategory">Type of Dish</p>
+    <button data-category="Poultry"   class='category blue'>American</button>
+    <button data-category="Poultry"   class='category blue'>Filipino</button>
+    <button data-category="Poultry"   class='category blue'>Chinese</button>
+    </div>
   </div>
 
 </div>
@@ -60,13 +75,14 @@ function hideModal() {
 function addItem(item) {
   var $li = $("<li>").addClass("item").addClass(item.Rice.toLowerCase());
 
+
   $li.attr("data-category",item.Rice);
 
   var $h2 = $("<h2 class='name'>").text(item.Meal);
   var $p = $("<p class='description'>").text(item.Dish);
   var $img = $("<img>").attr("src",item.images);
 
-  $li.append($img);
+  $li.append($h2, $img);
 
   $li.on("click",function(e) {
       showModal(item);
